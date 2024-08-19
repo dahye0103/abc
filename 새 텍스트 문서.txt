@@ -1,0 +1,30 @@
+보드
+코멘트 > 아이디 필요등등
+수정삭제api
+대댓글 api
+게시글api
+검색api  > 키보드 필요
+위에 상단 api
+
+규칙
+Request
+
+Response (잘 맞춰 둬야됌)
+디자인보고 알아서 > 필드명은 데이터베이스 컬럼명  > 스네이크 변수_a
+
+variable_a
+variable_A
+
+
+Get  -> 정보 가져오기
+Post -> 정보 추가
+Patch -> 정보 일부 수정
+Put -> 정보 다 수정 // 보드에선 쓸일 없음
+Delete -> 정보 삭제
+
+GET/ borad  -> 게시글 가져오기
+GET/ borad/{board_id} -> 1번 게시글 가져오기 {} 동적
+
+PATCh / board/{board_id} -> 1번 게시글 수정
+
+게시글api 완성
